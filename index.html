@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUISE PROJET</title>
+    <link rel="icon" type="image/x-icon" href="./image/3d.ico" />
+  </head>
+  <body>
+    <section>
+      <div class="heding">
+        <h1>NOTATION</h1>
+        <p>quiz quotidien pour tester vos connaissances</p>
+      </div>
+      <div id="ss" class="score non">
+        <p>Ton score 5/5</p>
+        <button onclick="nouveau(event)">essayer à nouveau!</button>
+      </div>
+      <form>
+        <div class="question">
+          <p>
+            1. Quel mot-clé est utilisé pour déclarer une variable en JavaScript
+            ?
+          </p>
+          <div class="option">
+            <input type="radio" name="q1" value="A" checked />
+            <label for=""> var</label>
+          </div>
+          <div class="option">
+            <input id="" type="radio" name="q1" value="B" />
+            <label for="">let</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q1" value="C" />
+            <label for="">const</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q1" value="D" />
+            <label for="">Toutes les réponses ci-dessus</label>
+          </div>
+        </div>
+        <div class="question">
+          <p>2. Quelle est la sortie de console.log(2 + "2")</p>
+          <div class="option">
+            <input type="radio" name="q2" value="A" checked />
+            <label for="">4</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q2" value="B" />
+            <label for="">"22"</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q2" value="C" />
+            <label for="">22</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q2" value="D" />
+            <label for="">"4"</label>
+          </div>
+        </div>
+        <div class="question">
+          <p>
+            3. Quelle méthode est utilisée pour ajouter un élément à la fin d'un
+            tableau en JavaScript ?
+          </p>
+          <div class="option">
+            <input type="radio" name="q3" value="A" checked />
+            <label for="">push()</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q3" value="B" />
+            <label for="">append()</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q3" value="C" />
+            <label for="">addToEend</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q3" value="D" />
+            <label for="">concat()</label>
+          </div>
+        </div>
+        <div class="question">
+          <p>4. Quelle est la différence entre == et === en JavaScript ?</p>
+          <div class="option">
+            <input type="radio" name="q4" value="A" checked />
+            <label for="">Il n'y a pas de différence</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q4" value="B" />
+            <label for=""
+              >== compare la valeur, === compare la valeur et le type de
+              données</label
+            >
+          </div>
+          <div class="option">
+            <input type="radio" name="q4" value="C" />
+            <label for=""
+              >== compare le type de données, === compare la valeur</label
+            >
+          </div>
+          <div class="option">
+            <input type="radio" name="q4" value="D" />
+            <label for=""
+              >=== est obsolète, == est la méthode recommandée</label
+            >
+          </div>
+        </div>
+        <div class="question">
+          <p>
+            5. Quelle méthode est utilisée pour supprimer le dernier élément
+            d'un tableau en JavaScript ?
+          </p>
+          <div class="option">
+            <input type="radio" name="q5" value="A" checked />
+            <label for="">pop()</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q5" value="B" />
+            <label for="">removeLast()</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q5" value="C" />
+            <label for="">deleteLast()</label>
+          </div>
+          <div class="option">
+            <input type="radio" name="q5" value="D" />
+            <label for="">splice()</label>
+          </div>
+        </div>
+        <div class="foot">
+          <button class="sub" type="submit">Soumettre</button>
+        </div>
+      </form>
+    </section>
+  </body>
+  <script src="quise.js"></script>
+</html>
